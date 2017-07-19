@@ -118,6 +118,18 @@ h6 {
     background: #000;
     color: #fff;
 }
+.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
 
 .wrapper {
     margin-top: 20px;
@@ -140,7 +152,7 @@ h6 {
     margin:auto;
     margin-bottom: 20px;
     border-radius: 100%;
-    background-image: url("../images/dog.jpg");
+    background-image: url("../images/ava.jpg");
     background-size: contain;
     background-repeat:no-repeat; 
 }
@@ -156,7 +168,7 @@ h6 {
     padding-top: 10px;
 }
 .summary {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .work-experience {
     margin-bottom: 20px;
@@ -169,13 +181,16 @@ h6 {
     margin-bottom: 5px;
 }
 .edu {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .item {
     margin: 10px 0px 10px 0;
 }
 .highlights {
-    margin: 0 0 10px 0;
+    margin: 0 0 40px 0;
+}
+#cases {
+    margin-bottom: 40px;
 }
 
 /* MEDIA */
