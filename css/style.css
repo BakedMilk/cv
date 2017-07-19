@@ -131,7 +131,7 @@ h6 {
     margin-top: 5px;
     margin-bottom: 5px;
 }
-.left-block-fixed {
+.left-block {
     margin-bottom: 30px;
 }
 .photo {
@@ -171,16 +171,26 @@ h6 {
 .edu {
     margin-bottom: 20px;
 }
-.edu-item {
-    margin-bottom: 10px;
+.item {
+    margin: 10px 0px 10px 0;
 }
-.footer {
-    font-size: 75%;
+.highlights {
+    margin: 0 0 10px 0;
 }
+
 /* MEDIA */
+@media (max-width: 2600px) { 
+    .photo {
+        margin: auto;
+        margin-bottom: 20px;
+        width: 200px;
+        height: 200px;
+    }
+}
 @media (max-width: 1599px) { 
     .photo {
         margin: auto;
+        margin-bottom: 20px;
         width: 200px;
         height: 200px;
     }
@@ -191,6 +201,7 @@ h6 {
 @media (max-width: 991px) {
       .photo {
         margin: auto;
+        margin-bottom: 20px;
         width: 190px;
         height: 190px;
     }
@@ -204,6 +215,7 @@ h6 {
     }
     .photo {
         margin: auto;
+        margin-bottom: 20px;
         width: 255px;
         height: 255px;
     }
